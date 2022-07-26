@@ -1,0 +1,33 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+}
+
+h1 {
+    background-color: greenyellow;
+    width: 30px;
+}
+
+#d1 {
+    background-color: lightsalmon;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    box-sizing: border-box;
+}
+
+#d2 {
+    background-color: rosybrown;
+    border-width: 3px;
+    border-color: green;
+    border-style: dashed double none;
+    box-sizing: border-box;
+}
+
+#d3 {
+    background-color: pink;
+    border: 4px solid blue;
+    border-right-style: dashed;
+    border-radius: 5%;
+}
