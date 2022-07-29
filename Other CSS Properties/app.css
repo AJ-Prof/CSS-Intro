@@ -1,0 +1,35 @@
+section {
+    width: 500px;
+    height: 500px;
+    background-color: magenta;
+    transition: background-color 1s 1s, border-radius 1s, margin-left 1s;
+}
+
+section:hover {
+    width: 500px;
+    height: 500px;
+    background-color: cyan;
+    border-radius: 50%;
+    margin-left: 400px;
+}
+
+section:nth-of-type(1) {
+    transition-timing-function: ease-in;
+}
+
+section:nth-of-type(2) {
+    transition-timing-function: ease-out;
+}
+
+#rgba {
+    width: 50%;
+    height: 50%;
+    background-color: rgba(255,255,255,.7);
+}
+
+#opacity {
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+    opacity: 0.5
+}
